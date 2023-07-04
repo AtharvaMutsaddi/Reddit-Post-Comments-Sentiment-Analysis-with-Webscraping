@@ -1,8 +1,8 @@
 streamlit
-praw
 json
 re
 pickle
 pandas
 matplotlib
 beautifulsoup4
+praw
