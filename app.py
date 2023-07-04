@@ -790,13 +790,13 @@ def clean(tweet):
 plt.style.use('ggplot')
 
 # STEP 1: Load the PRAW configuration from the file
-with open('config.json') as f:
-    config = json.load(f)
-client_id=config['client_id']
-client_secret=config['client_secret']
-user_agent=config['user_agent']
-user_name=config['user_name']
-password=config['password']
+# with open('config.json') as f:
+#     config = json.load(f)
+client_id=st.secrets['client_id']
+client_secret=st.secrets['client_secret']
+user_agent=st.secrets['user_agent']
+user_name=st.secrets['user_name']
+password=st.secrets['password']
 
 reddit = praw.Reddit(
         client_id=client_id,
