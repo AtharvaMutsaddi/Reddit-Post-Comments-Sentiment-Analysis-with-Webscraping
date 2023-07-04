@@ -1,4 +1,4 @@
-# Reddit Comment Sentiment Analysis App
+# Reddit Comment Sentiment Analysis App: Link https://reddit-post-comments-sentimentanalysis.streamlit.app/
 
 ## Description
 The Reddit Comment Sentiment Analysis App is a web application that allows users to scrape comments from a Reddit post, perform sentiment analysis on them, and provide data analytics in the form of bar graphs and pie charts. The app aims to provide insights into the sentiment distribution of comments and offer a filtered view of comments based on their sentiment.
