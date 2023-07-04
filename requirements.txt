@@ -1,8 +1,5 @@
-streamlit
-json
-re
-pickle
-pandas
-matplotlib
-beautifulsoup4
-praw
+beautifulsoup4==4.11.1
+matplotlib==3.6.2
+pandas==1.5.1
+praw==7.7.0
+streamlit==1.24.0
